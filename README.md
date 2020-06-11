@@ -28,7 +28,7 @@ ecs_entity_t e = ecs_new_c(world, 0);
 ecs_entity_t e = ecs_new_java(world, 0);
 ```
 
-### Four laguages, two in the same language:
+### Four laguages, two in the same language, one not defined:
 
 ```cpp
 ecs_entity_t e = ecs_new_cpp(world, 0);
@@ -39,7 +39,7 @@ ecs_entity_t e = ecs_new_c1(world, 0);
 ```c
 ecs_entity_t e = ecs_new_c2(world, 0);
 ```
-```java
+```
 ecs_entity_t e = ecs_new_java(world, 0);
 ```
 
